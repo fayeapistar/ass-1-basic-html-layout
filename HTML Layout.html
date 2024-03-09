@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML Layout</title>
+</head>
+<style>
+ header {
+    background-color: #000013;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #DDDDDD;
+    color: #000;
+    padding: 5px;
+    text-align: left;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.column{
+    width: 30%;
+    padding: 10px;
+    background-color: #83b3ca;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+</style>
+<body>
+    <header>TechTalk: Exploring the Digital Frontier</header>
+<nav>
+    <h1 style = "padding-left: 10px ; font-size: 20px">Navigation</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul> 
+</nav>
+
+<div class = "row">
+    <div class = "column">
+        <h2>Tech News Highlights</h2>
+        <p> Stay informed with the latest happenings in the tech world. From groundbreaking innovations to industry updates, 
+            our Tech News Highlights keep you in the loop with what's trending in technology.
+        </p>
+    </div>
+
+    <div class = "column">
+        <h2>The Future of Artificial Intelligence</h2>
+        <p> Dive into the fascinating world of artificial intelligence (AI) and explore its transformative potential in our featured article, 
+            "The Future of Artificial Intelligence." From self-driving cars to personalized healthcare, we examine the revolutionary impact of 
+            AI across various industries and its implications for the future of humanity.
+        </p>
+    </div>
+
+    <div class = "column">
+        <h2>Tech Tips & Tricks</h2>
+        <p> Unlock the full potential of your devices and software with our collection of Tech Tips & Tricks. 
+            Discover hidden features, shortcuts, and troubleshooting solutions to enhance your tech experience and stay ahead of the curve.
+        </p>
+    </div>
+</div>
+<footer>
+    <p>Stay connected with TechTalk on social media for the latest updates, tech news, and exclusive content.</p>
+    <p>Copyright © 2024 TechTalk. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
